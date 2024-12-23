@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mishra Electronics</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="homapage.css">
+    <style>
+        .card {
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            object-fit: cover;
+        }
+        .card-body {
+            font-weight: bolder;
+            text-align: center;
+        }
+        .btn {
+            background-color: blue;
+            color: aliceblue;
+        }
+        .btn:hover {
+            background-color: blue;
+            color: gold;
+        }
+       
+
+    .dropdown-menu {
+        background-color: rgb(67 0 86); /* Match dropdown color to navbar */
+        border: none; /* Remove border for a cleaner look */
+    }
+
+    .dropdown-item {
+        color: white; /* Change text color to white for visibility */
+    }
+
+    .dropdown-item:hover {
+        background-color: rgb(67 0 86) ;
+        color: gold; /* Keep text color white on hover */
+    }
+    #dropdownMenuButton{
+      background-color: rgb(67 0 86); 
+      border: none;
+      
+    }
+    .media img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+}
+
+.media img:hover {
+    transform: translateY(-10px); /* Lift up effect */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+    
+        
+    </style>
+</head>
+<body>
+    <div class="top-navbar">
+        <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">WELCOME TO OUR SHOP</h3>
+       
+        
+      </div>
+
+    <!-- nav bar-->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+          <b>
+              <span id="span1">M</span><span id="span2">ishra </span>
+              <span id="span1">E</span><span id="span2">lectronics</span>
+          </b>
+         <a href="homepage.html"> <button type="button" class="navbtn">Home</button></a>
+          
+          <!-- Product Dropdown -->
+          <div class="dropdown">
+              <button class="btn navbtn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Product
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="smartphone.html">Smartphones</a>
+                  <a class="dropdown-item" href="laptop.html">Laptops</a>
+                  <a class="dropdown-item" href="fridge.html">Refrigerators</a>
+                  <a class="dropdown-item" href="buds.html">Buds</a>
+                  <a class="dropdown-item" href="tv.html">Televisions</a>
+              </div>
+          </div>
+          
+         <a href="about.html"> <button type="button" class="navbtn">About</button></a>
+          <a href="contact.html"><button type="button" class="navbtn">Contact</button></a>
+      </div>
+  </nav>
+
+    <br><br>
+  
+    <div class="container">
+        <h1>Description</h1>
+        <ul class = "media-list">
+        <li class = "media">
+        <a class = "pull-left" href = "#">
+        <img width="700px" class="mr-3" src="laptop3.jpg" alt="laptop3">
+        </a>
+        <div class = "media-body">
+        <h4 class = "media-heading">MSI gf63</h4>
+        <h5>Rs. 98,999</h5>
+                        <a href="#" class="btn" target="_blank">BUY</a>
+        <p>
+            NVIDIA GeForce RTX Laptop GPUs offer a step up in performance for gamers and creators. Experience lifelike virtual worlds with ray tracing and higher frame rates with AI-powered DLSS. Discover amazing new ways to create in popular applications with workflow acceleration.
+            Engineered for improved performance, this laptop operates with reduced noise and temperature even under heavy workloads, making it ideal for seamless integration in any setting.
+            Customised and meticulously fine-tuned for gaming, this laptop caters to the needs of passionate gamers. And, its display boasts a fast refresh rate, providing you with seamless and uninterrupted visuals that boost your overall gaming experience.
+            Thanks to its comprehensive connectivity, this laptop helps you connect your different devices with convenience.
+            Offering high-resolution audio, this laptop offers you a realistic and engrossing aural experience.
+            Thanks to MSI Center, this laptop offers a control hub that allows you to optimise its performance as per your preference. So, with features, such as gaming mode, system tuning, and much more, you have the flexibility to customise your settings with ease.
+        </p>
+        </div>
+        </li>
+        </ul>
+        <div></div></div>
+
+    <br><br>
+ 
+
+           
+
+    <br><br>
+    <div>
+        <img src="return.png" alt="return" width="1510px" height="300px">
+    </div>
+
+    <div class="container" id="newsletter">
+        <h3 class="text-center">Subscribe To The Mishra Electronics For Latest updates.</h3>
+        <div class="input text-center">
+            <input type="email" placeholder="Enter Your Email.." />
+            <button id="subscribe">SUBSCRIBE</button>
+        </div>
+    </div>
+    <br><br>
+
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>Mishra Electronics</h3>
+                        <p>
+                            Shop no 152/A <br />
+                            Ratu road, Ranchi <br />
+                            Jharkhand <br />
+                            India <br />
+                            834005
+                        </p>
+                        <strong>Phone:</strong> 0657 222255 <br />
+                        <strong>Email:</strong> mishraelectronics@example.com <br />
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><a href="homepage.html">Home</a></li>
+                            <li><a href="smartphone.html">Products</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><a href="smartphone.html">Smartphone</a></li>
+                            <li><a href="laptop.html">Laptop</a></li>
+                            <li><a href="fridge.html">Refrigerator</a></li>
+                            <li><a href="buds.html">Buds</a></li>
+                            <li><a href="tv.html">Television</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Social Networks</h4>
+                        <p>Follow us on different social sites</p>
+                        <div class="social-links">
+                           
+                           <a href="https://x.com/?lang=en"> <img src="x.jpg" alt="twitter" class="rounded-circle" width="50px"></a>
+                           <a href="https://www.skype.com/en/"> <img src="skype.png" alt="skype" class="rounded-circle" width="50px"></a>
+                           <a href="https://www.instagram.com/"> <img src="insta.jpg" alt="instagram" class="rounded-circle" width="50px"></a>
+                           <a href="https://www.youtube.com/"> <img src="youtube.png" alt="youtube" class="rounded-circle" width="50px"></a>
+                           <a href="https://in.linkedin.com/"> <img src="link.png" alt="linkdin" class="rounded-circle" width="50px"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="container py-4">
+            <div class="">
+                &copy; <strong><span>Mishra Electronics</span></strong>
+            </div>
+            <div class="credits">Designed by <a href="#">Raghunandan Saw, Yash Kr Mishra, Shantanu Sharma, Sujeet Shekhar Sukula</a></div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+    <a href="#" class="arrow">
+        <i><img src="arrow.png" alt="" /></i>
+    </a>
+
+</body>
+</html>
